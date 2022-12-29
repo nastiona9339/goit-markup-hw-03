@@ -105,6 +105,16 @@ body {
   padding: 24px 0px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list,
+.adress {
+  display: flex;
+}
+
 .header-link {
   color: var(--link-def-color);
   font-weight: 600;
@@ -166,6 +176,11 @@ body {
 }
 
 /* --------Advantages section------ */
+
+.advantages-items {
+  display: flex;
+}
+
 .advantages,
 .examples,
 .team {
