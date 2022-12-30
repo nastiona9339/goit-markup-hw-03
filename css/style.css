@@ -199,6 +199,10 @@ body {
 
 /* --------Advantages section------ */
 
+.advantages .container {
+  padding: 120px 0px;
+}
+
 .advantages-list {
   display: flex;
 }
@@ -211,13 +215,11 @@ body {
   margin-right: 24px;
 }
 
-.advantages,
-.examples,
-.team {
-  margin: 120px 0px;
-}
-
 /* --------Examples section------ */
+
+.examples .container {
+  padding-bottom: 120px;
+}
 
 .example-list {
   display: flex;
@@ -263,6 +265,10 @@ body {
 }
 
 /* --------Team section------ */
+
+.team .container {
+  padding: 120px 0px;
+}
 .team-list {
   display: flex;
 }
@@ -272,8 +278,6 @@ body {
 }
 
 .team {
-  margin-bottom: 0px;
-  padding: 120px 0px;
   background-color: var(--background-section-light);
 }
 
