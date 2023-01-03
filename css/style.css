@@ -104,16 +104,19 @@ body {
 
 /* ------------HEADER -------------------*/
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-link,
 .header-mail,
 .header-tel {
-  padding: 24px;
+  padding: 24px 0px;
 }
 
 .header-list,
@@ -199,7 +202,7 @@ body {
 
 /* --------Advantages section------ */
 
-.advantages .container {
+.advantages {
   padding: 120px 0px;
 }
 
@@ -217,7 +220,7 @@ body {
 
 /* --------Examples section------ */
 
-.examples .container {
+.examples {
   padding-bottom: 120px;
 }
 
@@ -264,7 +267,7 @@ body {
 
 /* --------Team section------ */
 
-.team .container {
+.team {
   padding: 120px 0px;
 }
 .team-list {
@@ -294,8 +297,8 @@ body {
 }
 
 /* -----------PORTFOLIO SECTION-------- */
-.portfolio .container {
-  padding: 96px 0px;
+.portfolio {
+  padding: 96px 0px 120px;
 }
 
 .portfolio-filter {
@@ -361,7 +364,7 @@ body {
 }
 
 /* --------FOOTER------ */
-.footer .container {
+.footer {
   padding: 100px 0px;
 }
 
