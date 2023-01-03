@@ -230,8 +230,6 @@ body {
 }
 
 .example-items {
-  width: calc((100% - 48px) / 3);
-
   background: linear-gradient(
       0deg,
       rgba(77, 90, 229, 0.1),
@@ -286,8 +284,6 @@ body {
 }
 
 .team-photo {
-  width: calc((100% - 72px) / 4);
-
   text-align: center;
 
   background-color: var(--primary-white-color);
@@ -299,7 +295,7 @@ body {
 
 /* -----------PORTFOLIO SECTION-------- */
 .portfolio .container {
-  padding: 96px 120px;
+  padding: 96px 0px;
 }
 
 .portfolio-filter {
@@ -319,7 +315,6 @@ body {
 }
 
 .works-items {
-  width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -382,6 +377,9 @@ body {
 
 .footer-text {
   color: #e7e9fc;
-  max-width: 264px;
   margin-top: 16px;
+}
+
+.footer-first {
+  width: 264px;
 }
